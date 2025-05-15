@@ -1,1 +1,113 @@
-<!DOCTYPE html> <html lang="uk"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1" /> <title>Scalefantom Beats</title> <style> body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #121212; color: #e0e0e0; margin: 0; padding: 20px; text-align: center; } h1 { color: #00ffcc; margin-bottom: 10px; font-weight: 700; letter-spacing: 2px; } p { font-size: 1.1em; margin-bottom: 30px; color: #a0a0a0; } .beat-card { background: #1e1e1e; margin: 15px auto; padding: 20px; border-radius: 15px; max-width: 420px; box-shadow: 0 0 15px #00ffc2aa; transition: box-shadow 0.3s ease; } .beat-card:hover { box-shadow: 0 0 30px #00ffc2ff; } img { width: 100%; border-radius: 12px; box-shadow: 0 5px 15px #00ffcc77; } h2 { margin: 15px 0 10px; color: #00ffcc; font-weight: 600; } audio { width: 100%; margin-top: 10px; outline: none; border-radius: 10px; background: #000; } .buy-button { display: inline-block; margin-top: 15px; padding: 12px 30px; border-radius: 25px; background: linear-gradient(135deg, #00ffcc, #009977); color: #111; font-weight: 700; text-decoration: none; box-shadow: 0 4px 15px #00ffccaa; transition: background 0.3s ease, box-shadow 0.3s ease; cursor: pointer; } .buy-button:hover { background: linear-gradient(135deg, #00cca9, #007755); box-shadow: 0 6px 20px #00ffccdd; color: #fff; } @media (max-width: 480px) { body { padding: 15px 10px; } .beat-card { max-width: 100%; padding: 15px; } .buy-button { width: 100%; padding: 14px 0; } } </style> </head> <body> <h1>Scalefantom Beats</h1> <p>Слухай та завантажуй авторські біти</p> <div class="beat-card"> <h2>Street Flow</h2> <img src="cover1.jpg" alt="Обкладинка біта Street Flow" /> <audio controls> <source src="beat1.mp3" type="audio/mpeg" /> Ваш браузер не підтримує аудіо. </audio> <a href="#" class="buy-button">Купити</a> </div> <div class="beat-card"> <h2>Night Vibes</h2> <img src="cover2.jpg" alt="Обкладинка біта Night Vibes" /> <audio controls> <source src="beat2.mp3" type="audio/mpeg" /> Ваш браузер не підтримує аудіо. </audio> <a href="#" class="buy-button">Купити</a> </div> </body> </html> 
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scalefantom Beats</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #00ffcc;
+      margin-bottom: 10px;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      color: #a0a0a0;
+    }
+    .beat-card {
+      background: #1e1e1e;
+      margin: 15px auto;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 420px;
+      box-shadow: 0 0 15px #00ffc2aa;
+      transition: box-shadow 0.3s ease;
+    }
+    .beat-card:hover {
+      box-shadow: 0 0 30px #00ffc2ff;
+    }
+    img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px #00ffcc77;
+    }
+    h2 {
+      margin: 15px 0 10px;
+      color: #00ffcc;
+      font-weight: 600;
+    }
+    audio {
+      width: 100%;
+      margin-top: 10px;
+      outline: none;
+      border-radius: 10px;
+      background: #000;
+    }
+    .buy-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 30px;
+      border-radius: 25px;
+      background: linear-gradient(135deg, #00ffcc, #009977);
+      color: #111;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 4px 15px #00ffccaa;
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    .buy-button:hover {
+      background: linear-gradient(135deg, #00cca9, #007755);
+      box-shadow: 0 6px 20px #00ffccdd;
+      color: #fff;
+    }
+    @media (max-width: 480px) {
+      body {
+        padding: 15px 10px;
+      }
+      .beat-card {
+        max-width: 100%;
+        padding: 15px;
+      }
+      .buy-button {
+        width: 100%;
+        padding: 14px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Scalefantom Beats</h1>
+  <p>Слухай та завантажуй авторські біти</p>
+
+  <div class="beat-card">
+    <h2>Street Flow</h2>
+    <img src="cover1.jpg" alt="Обкладинка біта Street Flow" />
+    <audio controls>
+      <source src="beat1.mp3" type="audio/mpeg" />
+      Ваш браузер не підтримує аудіо.
+    </audio>
+    <a href="#" class="buy-button">Купити</a>
+  </div>
+
+  <div class="beat-card">
+    <h2>Night Vibes</h2>
+    <img src="cover2.jpg" alt="Обкладинка біта Night Vibes" />
+    <audio controls>
+      <source src="beat2.mp3" type="audio/mpeg" />
+      Ваш браузер не підтримує аудіо.
+    </audio>
+    <a href="#" class="buy-button">Купити</a>
+  </div>
+</body>
+</html>
